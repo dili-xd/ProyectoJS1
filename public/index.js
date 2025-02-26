@@ -6,7 +6,8 @@ const btnRegistro = document.getElementById("btnRegistro")
 btnRegistro.addEventListener("click", async function() {
     let usuario ={
         "nombreUsuario":inpuntNombreUsuario.value,
-        "inpuntClaveUsuario": inpuntClaveUsuario.value
+        "inpuntClaveUsuario": inpuntClaveUsuario.value,
+        "tipoUsuario":"estudiante"
     }
     await posData(usuario,"usuarios") 
     window.location.href='login.html'

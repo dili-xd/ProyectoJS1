@@ -1,3 +1,4 @@
+
 import { getInfo } from "./services/llamados.js"
 
 const inputNombre = document.getElementById("inputNombre")
@@ -7,11 +8,12 @@ const btnIniciarSesion = document.getElementById("btnIniciarSesion")
 
 btnIniciarSesion.addEventListener("click",async function(){
     let data = await getInfo("usuarios")
-    const usuarioValido = data.find((usuario)=> usuario.nombreUsuario === inputNombre.value && usuario.inpuntClaveUsuario === inputPass.value)
+    const usuarioValido = data.find((usuario)=> usuario.nombreUsuario === inputNombre.value && usuario.inpuntClaveUsuario === inputPass.value && usuario.tipoUsuario==="estudiante")
+    const usuarioValidoAdmin = data.find((usuario)=> usuario.nombreUsuario === inputNombre.value && usuario.inpuntClaveUsuario === inputPass.value && usuario.tipoUsuario==="admin")
     if (usuarioValido) {
-        console.log("USUARIO CORRECTO");
-    }else{
-        console.log("USUARIO INCORRECTO");
-        
-    }    
+        window.location.href = "estudiantes.html"
+    }else if(usuarioValidoAdmin){
+        window.location.href = "admin.html"
+      }  
 })
+

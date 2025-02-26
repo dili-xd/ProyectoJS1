@@ -1,0 +1,40 @@
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    background-color: #f7b731;
+    color: black;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    color:black;
+    margin-bottom: 20px;
+  }
+.contenedor{
+    position: relative;
+    left: 200px;
+    background-color:#4CAF50;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+   
+  }
+  .agregar{
+        position: relative;
+        top: 10px;
+        border: none;
+        background-color:red;
+        border-radius: 10px;
+        width: 90px;
+        height: 40px;
+        left: 20px;
+  }
+  .agregar:hover{
+    background:#f7b731;
+}

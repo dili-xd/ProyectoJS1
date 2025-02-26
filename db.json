@@ -1,9 +1,28 @@
 {
   "usuarios": [
     {
-      "id": "c79f",
-      "nombreUsuario": "Hola",
-      "inpuntClaveUsuario": "Hola"
+      "id": "3776",
+      "nombreUsuario": "Dilana Meneses",
+      "inpuntClaveUsuario": "meneses",
+      "tipoUsuario": "estudiante"
+    },
+    {
+      "id": "093f",
+      "nombreUsuario": "Tomas",
+      "inpuntClaveUsuario": "maripaz",
+      "tipoUsuario": "admin"
+    },
+    {
+      "id": "bc8e",
+      "nombreUsuario": "Dilana Meneses",
+      "inpuntClaveUsuario": "meneses",
+      "tipoUsuario": "estudiante"
+    },
+    {
+      "id": "5a62",
+      "nombreUsuario": "Dilana Meneses",
+      "inpuntClaveUsuario": "meneses",
+      "tipoUsuario": "estudiante"
     }
   ]
 }
