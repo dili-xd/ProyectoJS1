@@ -12,6 +12,7 @@ btnIniciarSesion.addEventListener("click",async function(){
     const usuarioValidoAdmin = data.find((usuario)=> usuario.nombreUsuario === inputNombre.value && usuario.inpuntClaveUsuario === inputPass.value && usuario.tipoUsuario==="admin")
     if (usuarioValido) {
         window.location.href = "estudiantes.html"
+        localStorage.setItem("nombre",usuarioValido.nombreUsuario)
     }else if(usuarioValidoAdmin){
         window.location.href = "admin.html"
       }  
