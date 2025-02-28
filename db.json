@@ -27,8 +27,26 @@
     {
       "id": "39a9",
       "nombreUsuario": "AndyElPapus",
-      "inpuntClaveUsuario": "penelargo12",
+      "inpuntClaveUsuario": "largo12",
       "tipoUsuario": "admin"
+    },
+    {
+      "id": "fbbd",
+      "nombreUsuario": "dilis",
+      "inpuntClaveUsuario": "dilis",
+      "tipoUsuario": "estudiante"
+    },
+    {
+      "id": "760b",
+      "nombreUsuario": "agua",
+      "inpuntClaveUsuario": "agua",
+      "tipoUsuario": "estudiante"
+    },
+    {
+      "id": "2930",
+      "nombreUsuario": "Elvis",
+      "inpuntClaveUsuario": "1234",
+      "tipoUsuario": "estudiante"
     }
   ],
   "consultas": [
@@ -47,25 +65,7 @@
     {
       "id": "243e",
       "usuarioConsulta": "Dilana Meneses",
-      "consulta": "dibujar pipis",
-      "horaConsulta": "15:33"
-    },
-    {
-      "id": "8010",
-      "usuarioConsulta": "Dilana Meneses",
-      "consulta": "dibujar pipis",
-      "horaConsulta": "15:33"
-    },
-    {
-      "id": "c37c",
-      "usuarioConsulta": "Dilana Meneses",
-      "consulta": "dibujar pipis",
-      "horaConsulta": "15:33"
-    },
-    {
-      "id": "c01c",
-      "usuarioConsulta": "Dilana Meneses",
-      "consulta": "dibujar pipis",
+      "consulta": "dibujar",
       "horaConsulta": "15:33"
     },
     {
@@ -85,6 +85,72 @@
       "usuarioConsulta": "AndyElPapus",
       "consulta": "",
       "horaConsulta": "15:35"
+    },
+    {
+      "id": "f461",
+      "usuarioConsulta": "agua",
+      "consulta": "dsdds",
+      "horaConsulta": "11:2"
+    },
+    {
+      "id": "9c3d",
+      "usuarioConsulta": "agua",
+      "consulta": "dsdds",
+      "horaConsulta": "11:2"
+    },
+    {
+      "id": "6c96",
+      "usuarioConsulta": "agua",
+      "consulta": "dsdds",
+      "horaConsulta": "11:2"
+    },
+    {
+      "id": "ce7b",
+      "usuarioConsulta": "agua",
+      "consulta": "dsdds",
+      "horaConsulta": "11:2"
+    },
+    {
+      "id": "e16e",
+      "usuarioConsulta": "dilis",
+      "consulta": "agua",
+      "horaConsulta": "15:7"
+    },
+    {
+      "id": "4570",
+      "usuarioConsulta": "dilis",
+      "consulta": "agua",
+      "horaConsulta": "15:7"
+    },
+    {
+      "id": "4e28",
+      "usuarioConsulta": "dilis",
+      "consulta": "agua",
+      "horaConsulta": "15:7"
+    },
+    {
+      "id": "40e6",
+      "usuarioConsulta": "dilis",
+      "consulta": "agua",
+      "horaConsulta": "15:11"
+    },
+    {
+      "id": "de55",
+      "usuarioConsulta": "dilis",
+      "consulta": "cate",
+      "horaConsulta": "15:11"
+    },
+    {
+      "id": "9b53",
+      "usuarioConsulta": "dilis",
+      "consulta": "sisas",
+      "horaConsulta": "15:12"
+    },
+    {
+      "id": "4cd3",
+      "usuarioConsulta": "Elvis",
+      "consulta": "¿Por qué ella no me ama?",
+      "horaConsulta": "15:39"
     }
   ]
 }
