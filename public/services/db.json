@@ -1,0 +1,100 @@
+{
+  "usuarios": [
+    {
+      "id": "3776",
+      "nombreUsuario": "Dilana Meneses",
+      "inpuntClaveUsuario": "meneses",
+      "tipoUsuario": "estudiante"
+    },
+    {
+      "id": "093f",
+      "nombreUsuario": "Tomas",
+      "inpuntClaveUsuario": "maripaz",
+      "tipoUsuario": "admin"
+    }
+    
+  ],
+  "consultas": [
+    {
+      "id": "243e",
+      "usuarioConsulta": "Dilana Meneses",
+      "consulta": "dibujar",
+      "horaConsulta": "15:33"
+    },
+    {
+      "id": "0862",
+      "usuarioConsulta": "Dilana Meneses",
+      "consulta": "que estan haciendo ",
+      "horaConsulta": "15:34"
+    }
+    {
+      "id": "e16e",
+      "usuarioConsulta": "dilis",
+      "consulta": "agua",
+      "horaConsulta": "15:7"
+    },
+    {
+      "id": "4570",
+      "usuarioConsulta": "dilis",
+      "consulta": "agua",
+      "horaConsulta": "15:7"
+    },
+    {
+      "id": "4e28",
+      "usuarioConsulta": "dilis",
+      "consulta": "agua",
+      "horaConsulta": "15:7"
+    },
+    {
+      "id": "40e6",
+      "usuarioConsulta": "dilis",
+      "consulta": "agua",
+      "horaConsulta": "15:11"
+    },
+  
+    {
+      "id": "4cd3",
+      "usuarioConsulta": "Elvis",
+      "consulta": "¿Por qué ella no me ama?",
+      "horaConsulta": "15:39"
+    }
+  ],
+  "respuestas": [
+    {
+      "id": "1970",
+      "pregunta": "ABC",
+      "respuesta": "drfdfg",
+      "usuarioResponde": "usuario"
+    },
+    {
+      "id": "b1b1",
+      "pregunta": "ABC",
+      "respuesta": "respondo",
+      "usuarioResponde": "usuario"
+    },
+    {
+      "id": "0f48",
+      "pregunta": "agua",
+      "respuesta": "respondo una",
+      "usuarioResponde": "usuario"
+    },
+    {
+      "id": "fe6e",
+      "pregunta": "agua",
+      "respuesta": "respondo",
+      "usuarioResponde": "usuario"
+    },
+    {
+      "id": "a594",
+      "pregunta": "agua",
+      "respuesta": "k",
+      "usuarioResponde": "usuario"
+    },
+    {
+      "id": "a0e7",
+      "pregunta": "agua",
+      "respuesta": "aja",
+      "usuarioResponde": "usuario"
+    }
+  ]
+}

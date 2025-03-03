@@ -1,7 +1,12 @@
 import { getInfo } from "./services/llamados.js"
 const contenedor = document.getElementById("contenedor")
+
+
+
 async function getRespuestas() {
     let respuestas = await getInfo("respuestas")
+    console.log(respuestas);
+    
     respuestas.forEach(respuesta=> {
         const tituloPregunta=document.createElement("h2")
         const textoRespuesta=document.createElement("p")

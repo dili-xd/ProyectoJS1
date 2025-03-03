@@ -1,0 +1,18 @@
+Durante el proyecto se hizo uso de distintas tecnologías de desarrollo FE, como por ejemplo:
+
+-HTML
+-CSS
+-JS
+
+Para el complemento de las tareas, se hizo uso de un simulador de BE que construye una base de datos llamada 
+db.json. Aquí guardamos todos los datos y toda la información que se procesa dentro de nuestros métodos.
+
+Los métodos que usamos, fueron los GET,POST,PUT,DELETE
+
+GET - Trae los datos
+
+POST - Los guarda 
+
+PUT - Los actualiza
+
+DELETE - Los elimina
