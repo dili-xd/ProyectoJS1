@@ -23,6 +23,56 @@ async function getInfo(endpoint) {
     } catch (error) {
         console.error(error)
     }
-    
 }
-export{getInfo,posData}
+async function patchData(info,endpoint,id) {
+    try {
+        const peticion = await fetch(`http://localhost:3001/${endpoint}/${id}/`,{
+            method: "PATCH",
+            headers:{
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(info)
+        })
+        const datos = await peticion.json()
+        console.log(datos)
+        return datos
+    } catch (error) {
+        console.error(error);
+    }
+}
+async function deleteData(endpoint,id){
+    try {
+        const peticion = await fetch(`http://localhost:3001/${endpoint}/${id}/`,{
+            method: "DELETE",
+            headers:{
+                "Content-Type": "application/json"
+            }
+        })
+        const datos = await peticion.json()
+        console.log(datos);
+        return datos
+    } catch (error) {
+        console.error(error);
+    }
+}
+export{getInfo,posData,patchData,deleteData}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
